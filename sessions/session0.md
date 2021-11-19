@@ -7,12 +7,19 @@
 * The SSH protocol
 * `ssh/config`
 * Public key authentication
+* Windows SSH options:
+  - UPPMAX suggests MobaXterm
+  - Windows 10: Ubuntu installed from Microsoft store
+  - Git for Windows provides a Bash interface
 
 ## Basics of UNIX commands
 
-* Fundamental commands: `ls`, `cd`, `mkdir`, `mv`, `rm`.
+* Command anatomy: `command argument`, `command -flags argument0 argument1`
+* Fundamental commands: `ls`, `cd`, `mkdir`, `mv`, `rm`, `ln`, `pwd`.
+* Paths: absolute and relative
 * Redirection: `STDIN`, `STDOUT` and `STDERR`
 * UNIX pipelines
-* Transferring files between UNIX computers: `scp` (and `rsync`)
-* Environment: variables, aliases, login scripts (`.profile`/`.bash_profile`, `.bashrc`, (`.bash_aliases`))
+* Transferring files to, from and between UNIX computers: `scp` (and `rsync`)
 * Text files and editors
+* Environment: variables, aliases, login scripts (`.profile`/`.bash_profile`, `.bashrc`, (`.bash_aliases`))
+* "Sourcing"

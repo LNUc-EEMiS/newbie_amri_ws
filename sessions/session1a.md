@@ -2,7 +2,11 @@
 
 ## Getting access to software: The UPPMAX module system
 
+* Documentation and help:
+
 ## Submitting jobs to UPPMAX queues
+
+* Documentation and help:
 
 ## Computer resources
 
