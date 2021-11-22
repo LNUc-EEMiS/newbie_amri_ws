@@ -18,6 +18,9 @@
   - `ls -l`
   - `mkdir test` `cd test`
 * Fundamental commands: `ls`, `cd`, `mkdir`, `mv`, `rm`, `ln`, `pwd`, `rmdir`.
+* Types of files: 
+  - normal, directories and links
+  - permissions and chmod, don't forget executable
 * Paths: absolute and relative
 * Redirection: `STDIN`, `STDOUT` and `STDERR`
 * UNIX pipelines
