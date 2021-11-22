@@ -15,7 +15,9 @@
 ## Basics of UNIX commands
 
 * Command anatomy: `command argument`, `command -flags argument0 argument1`
-* Fundamental commands: `ls`, `cd`, `mkdir`, `mv`, `rm`, `ln`, `pwd`.
+  - `ls -l`
+  - `mkdir test` `cd test`
+* Fundamental commands: `ls`, `cd`, `mkdir`, `mv`, `rm`, `ln`, `pwd`, `rmdir`.
 * Paths: absolute and relative
 * Redirection: `STDIN`, `STDOUT` and `STDERR`
 * UNIX pipelines
@@ -23,3 +25,4 @@
 * Text files and editors
 * Environment: variables, aliases, login scripts (`.profile`/`.bash_profile`, `.bashrc`, (`.bash_aliases`))
 * "Sourcing"
+* Job control: `&`, `fg`, `bg`, `jobs`, `<ctrl>z`
