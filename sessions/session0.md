@@ -21,11 +21,15 @@
 * Types of files: 
   - normal, directories and links
   - permissions and chmod, don't forget executable
-* Paths: absolute and relative
+* Paths: absolute and relative 
+* Important files and directories: `~user` == `/home/user` `/tmp`
 * Redirection: `STDIN`, `STDOUT` and `STDERR`
 * UNIX pipelines
 * Transferring files to, from and between UNIX computers: `scp` (and `rsync`)
 * Text files and editors
+* Regular expressions:
+  - `grep`
+  - `sed`
 * Environment: variables, aliases, login scripts (`.profile`/`.bash_profile`, `.bashrc`, (`.bash_aliases`))
 * "Sourcing"
 * Job control: `&`, `fg`, `bg`, `jobs`, `<ctrl>z`
