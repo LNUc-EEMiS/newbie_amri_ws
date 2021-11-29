@@ -1,0 +1,3 @@
+Create a directory for the workshop
+Download the three data files to the directory
+Make a pipeline: output the name lines from genomes.faa.gz, write to proteins.txt
