@@ -5,12 +5,13 @@
 ## Connecting to a server, e.g. UPPMAX's rackham cluster
 
 * The SSH protocol
-* `ssh/config`
-* Public key authentication
 * Windows SSH options:
   - UPPMAX suggests MobaXterm
   - Windows 10: Ubuntu installed from Microsoft store
   - Git for Windows provides a Bash interface
+* `ssh/config`
+* Public key authentication/ssh-agent
+* Copying files
 
 ## Basics of UNIX commands
 
@@ -22,7 +23,7 @@
   - normal, directories and links
   - permissions and chmod, don't forget executable
 * Paths: absolute and relative 
-* Important files and directories: `~user` == `/home/user` `/tmp`
+* Important files and directories: `~user` == `/home/user` `/tmp`, `/proj/NN`
 * Redirection: `STDIN`, `STDOUT` and `STDERR`
 * UNIX pipelines
 * Transferring files to, from and between UNIX computers: `scp` (and `rsync`)
