@@ -4,6 +4,8 @@
 
 ## Connecting to a server, e.g. UPPMAX's rackham cluster
 
+* UPPMAX and clusters
+  - Compute and storage projects
 * The SSH protocol
 * Windows SSH options:
   - UPPMAX suggests MobaXterm
