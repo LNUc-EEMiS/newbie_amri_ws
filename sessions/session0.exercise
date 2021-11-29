@@ -1,3 +1,7 @@
 Create a directory for the workshop
 Download the three data files to the directory
 Make a pipeline: output the name lines from genomes.faa.gz, write to proteins.txt
+
+Useful commands: grep, gunzip -c, cut -f, wc -l, more
+
+Answer: gunzip -c genome.faa.gz | grep '>' | gzip -c > proteins.txt.gz
