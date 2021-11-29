@@ -21,6 +21,7 @@
   - `ls -l`
   - `mkdir test` `cd test`
 * Fundamental commands: `ls`, `cd`, `mkdir`, `mv`, `rm`, `ln`, `pwd`, `rmdir`.
+* Text files and editors
 * Types of files: 
   - normal, directories and links
   - permissions and chmod, don't forget executable
@@ -29,7 +30,6 @@
 * Redirection: `STDIN`, `STDOUT` and `STDERR`
 * UNIX pipelines
 * Transferring files to, from and between UNIX computers: `scp` (and `rsync`)
-* Text files and editors
 * Regular expressions:
   - `grep`
   - `sed`
