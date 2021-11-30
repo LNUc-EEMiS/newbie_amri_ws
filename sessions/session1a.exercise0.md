@@ -17,7 +17,9 @@
 ### Creating a Blast database
 
 * Protein sequences: `makeblastdb -in targets.faa -out targetprot -dbtype prot`
+  - If your input file is gzipped: `gunzip -c targets.faa.gz | makeblastdb -out targetprot -title my_proteins -dbtype prot`
 * Nucleotide sequences: `makeblastdb -in targets.fna -out targetnucl -dbtype nucl`
+  - If your input file is gzipped: `gunzip -c targets.fna.gz | makeblastdb -out targetprot -title my_nucleotides -dbtype nucl`
 
 ### Running Blast
 
@@ -26,3 +28,5 @@
 * Search for nucleotide sequences in a nucleotide database: `blastn -db targetnucl -query subjects.fna`
 
 ### Running Blast against preformatted standard databases at UPPMAX
+
+https://www.uppmax.uu.se/resources/databases/blast-databases/
