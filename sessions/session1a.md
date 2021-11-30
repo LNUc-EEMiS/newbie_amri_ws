@@ -6,7 +6,9 @@
 
 ## Submitting jobs to UPPMAX queues
 
-* Documentation and help: https://uppmax.uu.se/support/user-guides/rackham-user-guide/ (Rackham)
+* Documentation and help: 
+  - https://uppmax.uu.se/support/user-guides/rackham-user-guide/ (Rackham)
+  - https://uppmax.uu.se/support/user-guides/slurm-user-guide/ (SLURM queue system)
 * `core` and `node`
 
 ## Computer resources
